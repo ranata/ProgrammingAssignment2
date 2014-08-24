@@ -71,3 +71,13 @@ cacheSolve <- function(x, ...) {
   inv
   
 }
+
+## Following lines provide sample data and commands for running the script
+
+## x <- matrix(c(1, 4, 5, 6, 2, 8, 9, 4, 2), nrow=3, ncol= 3)
+## a<-makeCacheMatrix()
+## a$set(x)
+## cacheSolve(a)  // first time calculates and returns the inverse
+## cacheSolve(a)  // second time returns the inverse from cache
+
+
